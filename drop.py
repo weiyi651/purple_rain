@@ -3,6 +3,9 @@ import pygame
 
 
 class Drop(object):
+    """
+        Class for drop object
+    """
     def __init__(self, screenWidth):
         self.width = randint(1,3)
         self.length = randint(20,50)
